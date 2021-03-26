@@ -2,24 +2,15 @@
   "name": "Project1",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
-  "dependencies": {
-    "gh-pages": "^3.1.0"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aka3z/expendingCards.git"
+    "test": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
-  "homepage": "https://aka3z.github.io/expendingCards/"
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Aka3z/expendingCards/issues"
-  },
-  "homepage": "https://github.com/Aka3z/expendingCards#readme"
+  "homepage": "https://aka3z.github.io/expendingCards/",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
